@@ -1,4 +1,4 @@
-# Chặn môi trường ảo python
+﻿# Chặn môi trường ảo python
 .venv/
 src/.venv/
 
@@ -13,5 +13,7 @@ src/.venv/
 src/log/
 *.log
 
-# Bảo đảm chặn hoàn toàn file dữ liệu lớn
+# Chặn các file dữ liệu lớn (>100MB) - GitHub giới hạn 100MB/file
+*.pt
+*.npy
 *Pixel200K.csv
